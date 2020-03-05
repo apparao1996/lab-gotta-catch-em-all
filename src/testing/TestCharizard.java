@@ -6,6 +6,8 @@ import org.junit.Test;
 
 import model.Charizard;
 
+
+////tests for charlizard
 public class TestCharizard {
 //	@Test
 	public void testCharacteristicsMethod() {

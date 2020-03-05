@@ -24,6 +24,8 @@ package model;
  * evolution = "RAICHU" 
  * baseExp = "112"
  */
+
+
   public class Pikachu extends Pokemon
 {
 
@@ -31,6 +33,7 @@ package model;
 		String type;
 		String evolution;
 		String baseExp;
+		
 		
 		public Pikachu(String pokemonName, int pokemonNumber, String characteristics, String type, String evolution,
 				String baseExp)
@@ -41,6 +44,8 @@ package model;
 			this.evolution = evolution;
 			this.baseExp = baseExp;
 		}
+		
+		
 
 		public String getCharacteristics() {
 			return characteristics;
@@ -73,6 +78,5 @@ package model;
 		public void setBaseExp(String baseExp) {
 			this.baseExp = baseExp;
 		}
-		
-		
+
 }

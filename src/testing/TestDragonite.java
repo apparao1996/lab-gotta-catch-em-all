@@ -7,6 +7,8 @@ import org.junit.Test;
 
 import model.Dragonite;
 
+
+////tests for dragonite
 public class TestDragonite {
 	@Test
 	public void testCharacteristicsMethod() {

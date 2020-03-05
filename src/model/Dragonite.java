@@ -19,8 +19,12 @@ package model;
 //type = "DRAGON"
 //evolution = "DRATINI"
 //baseExp = "270"
+
+
 public class Dragonite extends Pokemon
 {
+	
+
 	String characteristics;
 	String type;
 	String evolution;
@@ -35,6 +39,8 @@ public class Dragonite extends Pokemon
 		this.evolution = evolution;
 		this.baseExp = baseExp;
 	}
+	
+
 
 	public String getCharacteristics() {
 		return characteristics;
@@ -67,5 +73,8 @@ public class Dragonite extends Pokemon
 	public void setBaseExp(String baseExp) {
 		this.baseExp = baseExp;
 	}
+	
+	
+	
 	 
 }

@@ -18,8 +18,11 @@ package model;
 //type = "PSYCHIC"
 //evolution = "NONE"
 //baseExp = "64" 
+
 public  class Mew extends Pokemon
 {
+	
+
 	String characteristics;
 	String type;
 	String evolution;
@@ -34,6 +37,8 @@ public  class Mew extends Pokemon
 		this.evolution = evolution;
 		this.baseExp = baseExp;
 	}
+	
+	
 
 	public String getCharacteristics() {
 		return characteristics;
@@ -66,5 +71,8 @@ public  class Mew extends Pokemon
 	public void setBaseExp(String baseExp) {
 		this.baseExp = baseExp;
 	}
+	
+	
+	
 	
 }

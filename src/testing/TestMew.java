@@ -6,6 +6,9 @@ import org.junit.Test;
 
 import model.Mew;
 
+
+
+//test mew
 public class TestMew {
 	@Test
 	public void testCharacteristicsMethod() {

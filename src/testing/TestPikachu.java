@@ -6,6 +6,9 @@ import model.Pikachu;
 
 import static org.junit.Assert.*;
 
+
+
+//test pikachu
 public class TestPikachu {
 	
 	@Test

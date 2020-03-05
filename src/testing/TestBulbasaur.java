@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 
-
+//tests for bulbasaur
 public class TestBulbasaur {
 	@Test
 	public void testCharacteristicsMethod() {
